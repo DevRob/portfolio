@@ -1,6 +1,0 @@
-<h2>Lived and worked here</h2>
-<ul>
-  {{#city}}
-    <li>{{.}}</li>
-  {{/city}}
-</ul>

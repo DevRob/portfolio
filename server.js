@@ -5,8 +5,7 @@
  */
 
 var app = require('./app');
-var debug = require('debug')('app:production');
-var devDebug = require('debug')('app:dev');
+var debug = require('debug')('portfolio:server');
 var http = require('http');
 
 /**
@@ -20,7 +19,7 @@ app.set('port', port);
  * Create HTTP server.
  */
 
-const server = http.createServer(app);
+var server = http.createServer(app);
 
 /**
  * Listen on provided port, on all network interfaces.
@@ -87,7 +86,5 @@ function onListening() {
   var bind = typeof addr === 'string'
     ? 'pipe ' + addr
     : 'port ' + addr.port;
-  devDebug('starting server');
   debug('Listening on ' + bind);
-  devDebug('server started');
 }
