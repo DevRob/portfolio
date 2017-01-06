@@ -8,12 +8,28 @@
     <div class="container">
       <div id="viewport">
   		    <div class="world" id="world" style="transform: translateX( 0px ) translateY( 0px ) translateZ( 0px )">
-            <div class="cloudBase" style="transform: translateZ(128px)"><p>mousedown<br> &<br> move</p></div>
+            <div class="cloudBase" style="transform: translateZ(128px)">
+              <p>
+                mousedown<br> &<br> move
+              </p>
+            </div>
             <div class="cloudBase" style="transform: translateY(128px) rotateX(270deg)"></div>
-            <div class="cloudBase" style="transform: translateZ(-128px) rotateY(180deg)"><p>mousewheel<br> to<br> zoom</p></div>
+            <div class="cloudBase" style="transform: translateZ(-128px) rotateY(180deg)">
+              <p>
+                mousewheel<br> to<br> zoom
+              </p>
+            </div>
             <div class="cloudBase" style="transform: translateY(-128px) rotateX(90deg)"></div>
-            <div class="cloudBase" style="transform: translateX(128px) rotateY(90deg)"><p>Welcome to {{ title }}</p></div>
-            <div class="cloudBase" style="transform: translateX(-128px) rotateY(270deg)"><h1>{{ title }}</h1></div>
+            <div class="cloudBase" style="transform: translateX(128px) rotateY(90deg)">
+              <p>
+                Welcome to {{ title }}
+              </p>
+            </div>
+            <div class="cloudBase" style="transform: translateX(-128px) rotateY(270deg)">
+              <p>
+                <span style="font-size: 50px; font-weight: 800">{{ title }}</span>
+              </p>
+            </div>
           </div>
       </div>
     </div>
