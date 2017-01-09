@@ -8,24 +8,24 @@
     <div class="container">
       <div id="viewport">
   		    <div class="world" id="world" style="transform: translateX( 0px ) translateY( 0px ) translateZ( 0px )">
-            <div class="cloudBase" style="transform: translateZ(128px)">
+            <div class="cloudBase" style="transform: translateZ(256px)">
               <p>
                 mousedown<br> &<br> move
               </p>
             </div>
-            <div class="cloudBase" style="transform: translateY(128px) rotateX(270deg)"></div>
-            <div class="cloudBase" style="transform: translateZ(-128px) rotateY(180deg)">
+            <div class="cloudBase" style="transform: translateY(256px) rotateX(270deg)"></div>
+            <div class="cloudBase" style="transform: translateZ(-256px) rotateY(180deg)">
               <p>
                 mousewheel<br> to<br> zoom
               </p>
             </div>
-            <div class="cloudBase" style="transform: translateY(-128px) rotateX(90deg)"></div>
-            <div class="cloudBase" style="transform: translateX(128px) rotateY(90deg)">
+            <div class="cloudBase" style="transform: translateY(-256px) rotateX(90deg)"></div>
+            <div class="cloudBase" style="transform: translateX(256px) rotateY(90deg)">
               <p>
                 Welcome to {{ title }}
               </p>
             </div>
-            <div class="cloudBase" style="transform: translateX(-128px) rotateY(270deg)">
+            <div class="cloudBase" style="transform: translateX(-256px) rotateY(270deg)">
               <p>
                 <span style="font-size: 50px; font-weight: 800">{{ title }}</span>
               </p>
